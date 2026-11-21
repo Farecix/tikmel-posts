@@ -1,59 +1,52 @@
 [
  {
-  "id": "tiktok_guide_01", "page": "1/5", "accent": "#C2185B", "tint": "#F8E1EA",
-  "kicker": "คู่มือสำหรับสายไลฟ์ TikTok",
-  "headline": "ไลฟ์ TikTok\nอยู่ใช่ไหม?",
-  "sub": "4 ขั้นตอน ทำให้คนดูอยากส่งของขวัญมากขึ้น",
-  "visual": {"type": "steps", "items": [
-   "คนดูสแกน QR บนจอไลฟ์",
-   "อัปโหลดรูปของตัวเอง",
-   "ส่งของขวัญ รูปขึ้นจอทันที",
-   "คุณไลฟ์ต่อได้ ระบบจัดคิวให้เอง"
-  ]}
+  "id": "tiktok_guide_01", "kicker": "GUIDE",
+  "headline": "ไลฟ์ TikTok อยู่\nเพิ่มรายได้จากของขวัญยังไง?",
+  "en": "Going live on TikTok? Earn more from gifts",
+  "body": "ให้รูปของคนดูขึ้นจอไลฟ์ของคุณ แลกกับของขวัญ",
+  "body_en": "Put your viewers' photos on your live, in exchange for gifts.",
+  "visual": {"type": "tiles", "items": ["สแกน QR", "อัปโหลดรูป", "ส่งของขวัญ", "ขึ้นจอ"]}
  },
  {
-  "id": "tiktok_guide_02", "page": "2/5", "accent": "#C2185B", "tint": "#F8E1EA",
-  "kicker": "ขั้นที่ 1",
+  "id": "tiktok_guide_02", "kicker": "01 · SCAN",
   "headline": "คนดูสแกน QR\nบนจอไลฟ์",
-  "sub": "สแกนด้วยกล้องมือถือ อัปโหลดรูปได้ในไม่กี่วินาที",
+  "en": "Viewers scan the QR on your stream",
+  "body": "สแกนด้วยกล้องมือถือ อัปโหลดรูปได้ในไม่กี่วินาที",
+  "body_en": "Phone camera, upload, done. No app to install.",
   "visual": {"type": "rows", "title": "อัปโหลดรูปขึ้นไลฟ์", "items": [
    ["ชื่อบน TikTok", "@your_fan", ""],
    ["รูป", "selfie.jpg", "อัปโหลดแล้ว"],
    ["ข้อความ", "สุขสันต์วันเกิดนะ", ""]
-  ], "foot": "รูปจะขึ้นจอเมื่อส่งของขวัญครบ"}
+  ], "foot": "ตัวอย่าง · Sample"}
  },
  {
-  "id": "tiktok_guide_03", "page": "3/5", "accent": "#C2185B", "tint": "#F8E1EA",
-  "kicker": "ขั้นที่ 2",
+  "id": "tiktok_guide_03", "kicker": "02 · GIFTS",
   "headline": "ส่งของขวัญ\nรูปขึ้นจอทันที",
-  "sub": "ตั้งเองได้ว่าของขวัญแบบไหน ได้อะไรบนจอ",
+  "en": "Send a gift, photo goes on screen",
+  "body": "ตั้งเองได้ว่าของขวัญแบบไหน ได้อะไรบนจอ",
+  "body_en": "You decide what each gift unlocks on screen.",
   "visual": {"type": "rows", "title": "ตัวอย่างการตั้งค่า", "items": [
    ["กุหลาบ 1 ดอก", "ทักทายบนจอ", ""],
-   ["50 เหรียญขึ้นไป", "รูปขึ้นจอ", "ยอดนิยม"],
-   ["ของขวัญใหญ่", "รูปค้างนานขึ้น", ""]
-  ], "foot": "คนดูเห็นรูปตัวเองบนไลฟ์ ก็อยากส่งอีก"}
+   ["50 เหรียญขึ้นไป", "รูปขึ้นจอ", "ยอดนิยม"]
+  ], "foot": "คนดูเห็นรูปตัวเองบนไลฟ์ ก็อยากส่งอีก · Viewers who see themselves send again"}
  },
  {
-  "id": "tiktok_guide_04", "page": "4/5", "accent": "#C2185B", "tint": "#F8E1EA",
-  "kicker": "ขั้นที่ 3",
+  "id": "tiktok_guide_04", "kicker": "03 · AUTO QUEUE",
   "headline": "ไลฟ์ต่อได้เลย\nระบบจัดคิวให้",
-  "sub": "ไม่ต้องคอยกดอนุมัติเอง รูปเข้าคิวและขึ้นจอตามลำดับ เพลงเปิดต่อเนื่อง",
+  "en": "Keep streaming, the queue runs itself",
+  "body": "ไม่ต้องคอยกดอนุมัติเอง รูปขึ้นจอตามลำดับ เพลงเปิดต่อเนื่อง",
+  "body_en": "No manual approvals. Photos go up in order, music keeps playing.",
   "visual": {"type": "chat", "items": [
-   ["r", "@mintt ส่งของขวัญ 50 เหรียญ · รูปขึ้นจอแล้ว"],
-   ["r", "@beam_bkk ส่งกุหลาบ · ทักทายบนจอแล้ว"],
-   ["r", "คิวถัดไป: @noon.ny"]
+   "@mintt ส่ง 50 เหรียญ · รูปขึ้นจอแล้ว",
+   "@beam_bkk ส่งกุหลาบ · ทักทายบนจอแล้ว",
+   "คิวถัดไป: @noon.ny"
   ]}
  },
  {
-  "id": "tiktok_guide_05", "page": "5/5", "accent": "#C2185B", "tint": "#F8E1EA",
-  "kicker": "อยากลองกับไลฟ์ของคุณ?",
+  "id": "tiktok_guide_05", "kicker": "FREE SETUP CALL", "cta": true, "size": 84,
   "headline": "เราติดตั้ง\nให้ทั้งระบบ",
-  "sub": "ใช้กับ OBS ได้ ตั้งค่าของขวัญตามสไตล์ไลฟ์ของคุณ",
-  "visual": {"type": "steps", "items": [
-   "ทักมาคุยกันก่อน ฟรี",
-   "เราติดตั้งและตั้งค่าให้",
-   "ทดลองไลฟ์ด้วยกัน",
-   "เริ่มรับของขวัญได้เลย"
-  ]}
+  "en": "We set up everything for you",
+  "body": "ใช้กับ OBS ได้ ปรึกษาฟรี ไม่มีข้อผูกมัด",
+  "body_en": "Works with OBS. Free consultation, no obligation."
  }
 ]
