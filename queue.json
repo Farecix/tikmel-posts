@@ -133,5 +133,20 @@
    "status": "pending",
    "design": "v2"
   }
+ ],
+ "special": [
+  {
+   "id": "tiktok_guide",
+   "images": [
+    "posts/v2/tiktok_guide_01.jpg",
+    "posts/v2/tiktok_guide_02.jpg",
+    "posts/v2/tiktok_guide_03.jpg",
+    "posts/v2/tiktok_guide_04.jpg",
+    "posts/v2/tiktok_guide_05.jpg",
+    "posts/v2/tiktok_guide_06.jpg"
+   ],
+   "caption": "สายไลฟ์ TikTok ลองแบบนี้ดูไหมครับ\n\nคนดูสแกน QR บนจอ ส่งรูปตัวเอง แล้วส่งของขวัญ รูปก็ขึ้นจอไลฟ์ของคุณทันที ยิ่งของขวัญใหญ่ ยิ่งอยู่บนจอนาน คนดูเห็นตัวเองบนไลฟ์ ก็อยากส่งอีก\n\nใช้กับ OBS หรือ TikTok LIVE Studio ได้ เราติดตั้งและตั้งค่าให้ทั้งหมด\n\nปัดดูทีละขั้นได้เลย แล้วบอกหน่อยว่าไลฟ์ของคุณเป็นแนวไหนครับ?\n\nปรึกษาฟรี ทัก DM หรือ LINE · tikmeltech.live\n\n#TikTokLive #ไลฟ์สด #สตรีมเมอร์ #ScreenUp #TIKMELTECH",
+   "status": "awaiting_approval"
+  }
  ]
 }

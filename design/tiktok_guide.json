@@ -1,52 +1,72 @@
 [
  {
-  "id": "tiktok_guide_01", "kicker": "GUIDE",
+  "id": "tiktok_guide_01",
+  "kicker": "GUIDE",
   "headline": "ไลฟ์ TikTok อยู่\nเพิ่มรายได้จากของขวัญยังไง?",
   "en": "Going live on TikTok? Earn more from gifts",
   "body": "ให้รูปของคนดูขึ้นจอไลฟ์ของคุณ แลกกับของขวัญ",
   "body_en": "Put your viewers' photos on your live, in exchange for gifts.",
-  "visual": {"type": "tiles", "items": ["สแกน QR", "อัปโหลดรูป", "ส่งของขวัญ", "ขึ้นจอ"]}
+  "visual": {
+   "type": "photo",
+   "src": "design/photos/tiktok_obs_screen.jpg"
+  }
  },
  {
-  "id": "tiktok_guide_02", "kicker": "01 · SCAN",
-  "headline": "คนดูสแกน QR\nบนจอไลฟ์",
-  "en": "Viewers scan the QR on your stream",
-  "body": "สแกนด้วยกล้องมือถือ อัปโหลดรูปได้ในไม่กี่วินาที",
-  "body_en": "Phone camera, upload, done. No app to install.",
-  "visual": {"type": "rows", "title": "อัปโหลดรูปขึ้นไลฟ์", "items": [
-   ["ชื่อบน TikTok", "@your_fan", ""],
-   ["รูป", "selfie.jpg", "อัปโหลดแล้ว"],
-   ["ข้อความ", "สุขสันต์วันเกิดนะ", ""]
-  ], "foot": "ตัวอย่าง · Sample"}
+  "id": "tiktok_guide_02",
+  "kicker": "01 · SCAN & UPLOAD",
+  "headline": "คนดูสแกน QR\nแล้วส่งรูป",
+  "en": "Viewers scan the QR and send a photo",
+  "body": "ถ่ายรูปหรือเลือกจากอัลบั้ม ไม่ต้องลงแอป",
+  "body_en": "Take a photo or pick one from the album. No app needed.",
+  "visual": {
+   "type": "photo",
+   "src": "design/photos/tiktok_guest_upload.jpg"
+  }
  },
  {
-  "id": "tiktok_guide_03", "kicker": "02 · GIFTS",
-  "headline": "ส่งของขวัญ\nรูปขึ้นจอทันที",
-  "en": "Send a gift, photo goes on screen",
-  "body": "ตั้งเองได้ว่าของขวัญแบบไหน ได้อะไรบนจอ",
-  "body_en": "You decide what each gift unlocks on screen.",
-  "visual": {"type": "rows", "title": "ตัวอย่างการตั้งค่า", "items": [
-   ["กุหลาบ 1 ดอก", "ทักทายบนจอ", ""],
-   ["50 เหรียญขึ้นไป", "รูปขึ้นจอ", "ยอดนิยม"]
-  ], "foot": "คนดูเห็นรูปตัวเองบนไลฟ์ ก็อยากส่งอีก · Viewers who see themselves send again"}
+  "id": "tiktok_guide_03",
+  "kicker": "02 · GIFT MENU",
+  "headline": "ของขวัญยิ่งใหญ่\nยิ่งอยู่บนจอนาน",
+  "en": "Bigger gift, longer on screen",
+  "body": "50 coins รูปขึ้นจอ 10 วิ · 299 coins VIP ลัดคิว",
+  "body_en": "50 coins = photo for 10s · 299 coins = VIP, skips the queue. You set the levels.",
+  "visual": {
+   "type": "photo",
+   "src": "design/photos/tiktok_gift_tiers.jpg"
+  }
  },
  {
-  "id": "tiktok_guide_04", "kicker": "03 · AUTO QUEUE",
-  "headline": "ไลฟ์ต่อได้เลย\nระบบจัดคิวให้",
-  "en": "Keep streaming, the queue runs itself",
-  "body": "ไม่ต้องคอยกดอนุมัติเอง รูปขึ้นจอตามลำดับ เพลงเปิดต่อเนื่อง",
-  "body_en": "No manual approvals. Photos go up in order, music keeps playing.",
-  "visual": {"type": "chat", "items": [
-   "@mintt ส่ง 50 เหรียญ · รูปขึ้นจอแล้ว",
-   "@beam_bkk ส่งกุหลาบ · ทักทายบนจอแล้ว",
-   "คิวถัดไป: @noon.ny"
-  ]}
+  "id": "tiktok_guide_04",
+  "kicker": "03 · YOU'RE IN CONTROL",
+  "headline": "คิวเดินเอง\nแต่คุณคุมจอได้ตลอด",
+  "en": "The queue runs itself, you stay in control",
+  "body": "ดูรูปรออนุมัติ ประกาศด่วนบนจอ และปุ่มเคลียร์จอทันที",
+  "body_en": "Pending photos, instant announcements and a clear-screen button.",
+  "visual": {
+   "type": "photo",
+   "src": "design/photos/tiktok_moderation.jpg"
+  }
  },
  {
-  "id": "tiktok_guide_05", "kicker": "FREE SETUP CALL", "cta": true, "size": 84,
+  "id": "tiktok_guide_05",
+  "kicker": "04 · OBS / LIVE STUDIO",
+  "headline": "ต่อกับ OBS\nหรือ TikTok LIVE Studio",
+  "en": "Works with OBS and TikTok LIVE Studio",
+  "body": "วางลิงก์เป็น Browser source แนวตั้ง 1080×1920 ก็พร้อมไลฟ์",
+  "body_en": "Add one browser source, portrait 1080×1920, and you're live.",
+  "visual": {
+   "type": "photo",
+   "src": "design/photos/tiktok_obs_setup.jpg"
+  }
+ },
+ {
+  "id": "tiktok_guide_06",
+  "kicker": "FREE SETUP CALL",
+  "cta": true,
+  "size": 84,
   "headline": "เราติดตั้ง\nให้ทั้งระบบ",
   "en": "We set up everything for you",
-  "body": "ใช้กับ OBS ได้ ปรึกษาฟรี ไม่มีข้อผูกมัด",
-  "body_en": "Works with OBS. Free consultation, no obligation."
+  "body": "ScreenUp LIVE by TIKMEL TECH · ปรึกษาฟรี ไม่มีข้อผูกมัด",
+  "body_en": "ScreenUp LIVE by TIKMEL TECH. Free consultation, no obligation."
  }
 ]

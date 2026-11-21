@@ -87,8 +87,8 @@ h1{{font-size:{s.get("size",76)}px;line-height:1.28;font-weight:700;margin-top:1
 .b{{font-size:29px;padding:16px 26px;border-radius:26px;border-bottom-right-radius:8px;background:#11171B;
  border:2px solid #1E2930}}
 .b:first-child{{border-color:{PINK}}}
-.photo{{flex:1;min-height:0;border-radius:26px;overflow:hidden;border:2px solid #1E2930}}
-.photo img{{width:100%;height:100%;object-fit:cover;display:block}}
+.photo{{flex:1;min-height:0;display:flex;justify-content:center;align-items:flex-start}}
+.photo img{{max-width:100%;max-height:100%;border-radius:22px;border:2px solid #263139;display:block}}
 .prog{{display:flex;align-items:center;gap:10px;margin-top:36px}}
 .bar{{width:52px;height:5px;border-radius:3px;background:#26323A}} .bar.on{{background:{CYAN}}}
 .swipe{{margin-left:auto;font-size:22px;color:#8B989F}}
