@@ -1,0 +1,118 @@
+[
+ {
+  "id": "club_guide_01",
+  "kicker": "GUIDE · NIGHTCLUB",
+  "headline": "จอในร้าน\nทำเงินได้ทุกคืน",
+  "en": "Turn your club's screens into revenue",
+  "body": "ลูกค้าสแกน QR จ่ายเงิน รูปขึ้นจอใหญ่ทันที",
+  "body_en": "Guests scan, pay, and their photo goes up on the big screen.",
+  "visual": {
+   "type": "photo",
+   "src": "design/photos/club_screen.jpg"
+  }
+ },
+ {
+  "id": "club_guide_02",
+  "kicker": "01 · SCAN & SEND",
+  "headline": "สแกน QR\nแล้วส่งรูป",
+  "en": "Scan the QR, send a photo",
+  "body": "ถ่ายรูปหรือเลือกจากอัลบั้ม เห็นคิวและเวลารอก่อนจ่าย",
+  "body_en": "Take or pick a photo, see the queue and wait time before paying.",
+  "visual": {
+   "type": "photo",
+   "src": "design/photos/club_guest.jpg"
+  }
+ },
+ {
+  "id": "club_guide_03",
+  "kicker": "02 · PACKAGES",
+  "headline": "ตั้งแพ็กเกจ\nและราคาเองได้",
+  "en": "Set your own packages and prices",
+  "body": "ชื่อแพ็กเกจ ราคา เวลาบนจอ และสไตล์ ตั้งได้เองทั้งหมด",
+  "body_en": "Name, price, time on screen and style, all up to you.",
+  "visual": {
+   "type": "rows",
+   "title": "แพ็กเกจ · Packages (ตัวอย่าง)",
+   "items": [
+    [
+     "ขึ้นจอ 15 วินาที",
+     "฿99",
+     ""
+    ],
+    [
+     "ขึ้นจอ 30 วินาที",
+     "฿199",
+     "Party"
+    ],
+    [
+     "วันเกิด 30 วินาที",
+     "฿299",
+     "Birthday"
+    ],
+    [
+     "VIP ลัดคิว 30 วินาที",
+     "฿499",
+     "VIP"
+    ]
+   ]
+  }
+ },
+ {
+  "id": "club_guide_04",
+  "kicker": "03 · DJ SONG",
+  "headline": "ขอเพลง\nพร้อมทิปดีเจ",
+  "en": "Song requests with a tip for the DJ",
+  "body": "ลูกค้าขอเพลงพร้อมทิป ดีเจเลือกเองว่าเข้ากับเซ็ตไหม",
+  "body_en": "Guests request a song with a tip, the DJ decides what fits the set.",
+  "visual": {
+   "type": "photo",
+   "src": "design/photos/club_djsong.jpg"
+  }
+ },
+ {
+  "id": "club_guide_05",
+  "kicker": "04 · STAFF CONTROL",
+  "headline": "ตรวจทุกรูป\nก่อนขึ้นจอ",
+  "en": "Staff review every photo first",
+  "body": "อนุมัติรูป ประกาศด่วนบนจอ และปุ่ม PANIC เคลียร์จอทันที",
+  "body_en": "Approve photos, post quick announcements, PANIC button clears the screen.",
+  "visual": {
+   "type": "photo",
+   "src": "design/photos/club_moderation.jpg"
+  }
+ },
+ {
+  "id": "club_guide_06",
+  "kicker": "05 · DASHBOARD",
+  "headline": "เห็นรายได้\nทุกคืน",
+  "en": "See your revenue every night",
+  "body": "ยอดรายวัน แยกออนไลน์ เงินสด และ VIP ดูย้อนหลัง 30 วัน",
+  "body_en": "Daily revenue by online, cash and VIP, with a 30-day view.",
+  "visual": {
+   "type": "photo",
+   "src": "design/photos/club_dashboard.jpg"
+  }
+ },
+ {
+  "id": "club_guide_07",
+  "kicker": "06 · MULTI-SCREEN",
+  "headline": "หลายจอ\nในร้านเดียว",
+  "en": "Multiple screens, one system",
+  "body": "แต่ละจอมี QR ของตัวเอง ดาวน์โหลดโปสเตอร์ PNG หรือ PDF ได้ทันที",
+  "body_en": "Each screen gets its own QR, poster ready as PNG or PDF.",
+  "visual": {
+   "type": "photo",
+   "src": "design/photos/club_screens.jpg"
+  }
+ },
+ {
+  "id": "club_guide_08",
+  "kicker": "FREE SETUP CALL",
+  "cta": true,
+  "size": 84,
+  "headline": "เราติดตั้ง\nให้ทั้งร้าน",
+  "en": "We set it up for your venue",
+  "body": "ScreenUp by TIKMEL TECH · ปรึกษาฟรี ไม่มีข้อผูกมัด",
+  "body_en": "ScreenUp by TIKMEL TECH. Free consultation, no obligation."
+ }
+]
