@@ -39,8 +39,8 @@ h1{{font-size:96px;line-height:1.08;font-weight:700;margin-top:60px}}
 .win .bar{{height:40px;display:flex;gap:10px;align-items:center;padding:0 18px}}
 .win .bar i{{width:13px;height:13px;border-radius:50%;background:#3A3B3F}}
 .frame .win img{{width:100%;max-width:none;max-height:none;border:0;border-radius:0;display:block}}
-.phones{{display:flex;justify-content:center;gap:40px;height:1000px}} .phones.n2{{height:880px;gap:30px}}
-.frame .phones img{{height:100%;max-width:none;max-height:none;border-radius:48px;border:5px solid #2B2C2F}}
+.phones{{display:flex;justify-content:center;gap:40px;height:1000px}} .phones.n2{{height:880px;gap:30px}} .frame .phones.n2 img{{height:880px}}
+.frame .phones img{{height:1000px;width:auto;flex:none;max-width:none;max-height:none;border-radius:48px;border:5px solid #2B2C2F}}
 ul{{list-style:none;display:flex;flex-direction:column;gap:26px}}
 li{{display:flex;flex-direction:column;padding-left:34px;position:relative}}
 li:before{{content:"";position:absolute;left:0;top:18px;width:14px;height:14px;border-radius:4px;background:{LIME}}}
