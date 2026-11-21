@@ -1,0 +1,12 @@
+[
+ {"id": "twobox", "name": "Two Box\nHair Studio", "sector_th": "ร้านตัดผม · นนทบุรี", "sector_en": "Barbershop, Nonthaburi",
+  "cover": {"th": "เว็บไซต์ + ระบบหลังบ้าน", "en": "Website + backoffice", "window": "design/photos/work/twobox_bo_earnings.jpg", "phone": "design/photos/work/mobile/twobox_0.png"},
+  "slides": [
+   {"label": "เว็บไซต์ · WEBSITE", "shot": "design/photos/work/twobox.jpg", "tags": ["Website", "Booking", "TH / EN"],
+    "points": [["จองคิวผ่าน LINE หรือโทร", "Booking via LINE or phone"], ["เมนูบริการพร้อมราคา", "Service menu with prices"], ["ไทย / อังกฤษ ใช้ง่ายบนมือถือ", "Thai / English, mobile-first"]]},
+   {"label": "หลังบ้าน · BACKOFFICE", "shot": "design/photos/work/twobox_bo_earnings.jpg", "tags": ["Revenue", "Reports", "Owner PIN"],
+    "points": [["รายได้วันนี้ สัปดาห์ เดือน", "Today, this week, this month"], ["แยกเงินสดกับสแกน เทียบสัปดาห์ก่อน", "Cash vs scan, week over week"], ["เฉพาะเจ้าของ ด้วย PIN", "Owner-only, PIN protected"]]},
+   {"label": "หลังบ้าน · BACKOFFICE", "shot": "design/photos/work/twobox_bo_log.jpg", "tags": ["Walk-ins", "History", "Barbers"],
+    "points": [["บันทึกลูกค้าและนัดหมายในไม่กี่วินาที", "Log walk-ins and bookings in seconds"], ["ประวัติลูกค้า ช่าง บริการ การชำระ", "History by barber, service, payment"], ["ใช้ได้ทั้งคอมและมือถือ", "Works on computer and phone"]]}
+  ]}
+]
