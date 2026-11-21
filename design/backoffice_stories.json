@@ -1,0 +1,29 @@
+[
+ {
+  "id": "bo_screenup",
+  "label": "หลังบ้าน · BACKOFFICE",
+  "name": "ScreenUp",
+  "sector_th": "ระบบหลังบ้านสำหรับผับ บาร์ ไนท์คลับ",
+  "sector_en": "Backoffice for nightlife venues",
+  "shot": "design/photos/club_dashboard.jpg",
+  "points": [
+   [
+    "ดูรายได้ทุกคืน แยกออนไลน์ เงินสด VIP",
+    "Nightly revenue by payment type"
+   ],
+   [
+    "ตรวจรูปก่อนขึ้นจอ และปุ่มเคลียร์จอ",
+    "Photo review and panic button"
+   ],
+   [
+    "ตั้งแพ็กเกจ ราคา และจอเองได้",
+    "Packages, prices and screens"
+   ]
+  ],
+  "tags": [
+   "Dashboard",
+   "Moderation",
+   "Reports"
+  ]
+ }
+]

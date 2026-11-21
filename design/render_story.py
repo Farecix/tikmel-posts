@@ -52,7 +52,7 @@ li b{{font-size:38px;font-weight:600}} li span{{font-size:27px;color:#A9ABA4}}
 .foot{{position:absolute;left:80px;right:80px;bottom:110px;font-size:32px;font-weight:700;display:flex;justify-content:space-between}}
 .foot .u{{color:{LIME}}}
 </style></head><body>
-<div class="top"><span>TIKMEL TECH</span><span class="k">ผลงาน · OUR WORK</span></div>
+<div class="top"><span>TIKMEL TECH</span><span class="k">{e(s.get("label","ผลงาน · OUR WORK"))}</span></div>
 <h1>{"<br>".join(e(x) for x in s["name"].split(chr(10)))}</h1>
 <div class="sec">{e(s["sector_th"])}<small>{e(s["sector_en"])}</small></div>
 <div class="frame">{shot}<ul>{pts}</ul></div>
