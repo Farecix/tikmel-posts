@@ -71,7 +71,7 @@ h1{{font-size:98px;line-height:1.3;font-weight:700;margin-top:56px}}
 .bottom{{display:flex;justify-content:space-between;align-items:baseline;border-top:2px solid #E2D9CC;padding-top:30px}}
 .cta{{font-size:34px;font-weight:700}} .url{{font-size:34px;font-weight:700;color:{a}}}
 </style></head><body>
-<div class="top"><span class="kicker">{e(p["kicker"])}</span><span class="brand">TIKMEL TECH</span></div>
+<div class="top"><span class="kicker">{e(p["kicker"])}</span><span class="brand">TIKMEL TECH{(" · " + p["page"]) if p.get("page") else ""}</span></div>
 <h1>{head}</h1>
 <div class="sub">{e(p["sub"])}</div>
 <div class="vis">{visual(p["visual"], a, tint)}</div>
@@ -80,7 +80,7 @@ h1{{font-size:98px;line-height:1.3;font-weight:700;margin-top:56px}}
 
 
 def main(ids):
-    posts = json.loads((ROOT / "design/posts_v2.json").read_text())
+    posts = json.loads((ROOT / os.environ.get("POSTS_FILE", "design/posts_v2.json")).read_text())
     if ids:
         posts = [p for p in posts if p["id"] in ids]
     (ROOT / "posts/v2").mkdir(parents=True, exist_ok=True)
