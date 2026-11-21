@@ -1,0 +1,12 @@
+[
+ {"id": "work_pearlqueen", "name": "Pearl Queen\n& Queen Tara", "sector_th": "ร้านเสริมสวยและนวดไทย · นนทบุรี", "sector_en": "Beauty & Thai massage, Nonthaburi",
+  "tags": ["เว็บไซต์ · Website", "ระบบหลังบ้าน · Backoffice", "TH / EN"], "shot": null},
+ {"id": "work_twobox", "name": "Two Box\nHair Studio", "sector_th": "ร้านตัดผม · บาร์เบอร์", "sector_en": "Barbershop",
+  "tags": ["เว็บไซต์ · Website", "จองคิว · Booking", "ระบบหลังบ้าน · Backoffice"], "shot": null},
+ {"id": "work_localink", "name": "The Local\nInk House", "sector_th": "ร้านสัก", "sector_en": "Tattoo studio",
+  "tags": ["เว็บไซต์ · Website", "Google Maps", "TH / EN"], "shot": null},
+ {"id": "work_goggen", "name": "Goggen\nSportpub", "sector_th": "สปอร์ตผับ", "sector_en": "Sports pub",
+  "tags": ["ตารางแข่ง · Matches", "จองโต๊ะ · Table booking", "ระบบหลังบ้าน · Backoffice"], "shot": null},
+ {"id": "work_chezdugong", "name": "Chez Dugong", "sector_th": "ร้านอาหารริมทะเล · บีชบาร์", "sector_en": "Beachfront restaurant & bar",
+  "tags": ["เว็บไซต์ · Website", "QR เมนู · QR menu", "จองโต๊ะ · Reservations"], "shot": null}
+]
