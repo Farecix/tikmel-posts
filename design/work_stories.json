@@ -1,22 +1,132 @@
 [
- {"id": "work_pearlqueen", "name": "Pearl Queen\n& Queen Tara", "sector_th": "ร้านเสริมสวยและนวดไทย · นนทบุรี", "sector_en": "Beauty & Thai massage, Nonthaburi",
+ {
+  "id": "work_pearlqueen",
+  "name": "Pearl Queen\n& Queen Tara",
+  "sector_th": "ร้านเสริมสวยและนวดไทย · นนทบุรี",
+  "sector_en": "Beauty & Thai massage, Nonthaburi",
   "shot": "design/photos/work/pearl.jpg",
-  "points": [["สองร้านในเว็บเดียว แยกบิวตี้กับนวด", "Two shops, one website"], ["เมนูบริการและราคา ไทย / อังกฤษ", "Service menus and prices, TH / EN"], ["หลังบ้านแก้เวลาเปิดและราคาได้เอง", "Backoffice to edit hours and prices"]],
-  "tags": ["Website", "Backoffice", "TH / EN"]},
- {"id": "work_twobox", "name": "Two Box\nHair Studio", "sector_th": "ร้านตัดผม · นนทบุรี", "sector_en": "Barbershop, Nonthaburi",
+  "points": [
+   [
+    "สองร้านในเว็บเดียว แยกบิวตี้กับนวด",
+    "Two shops, one website"
+   ],
+   [
+    "เมนูบริการและราคา ไทย / อังกฤษ",
+    "Service menus and prices, TH / EN"
+   ],
+   [
+    "หลังบ้านแก้เวลาเปิดและราคาได้เอง",
+    "Backoffice to edit hours and prices"
+   ]
+  ],
+  "tags": [
+   "Website",
+   "Backoffice",
+   "TH / EN"
+  ]
+ },
+ {
+  "id": "work_twobox",
+  "name": "Two Box\nHair Studio",
+  "sector_th": "ร้านตัดผม · นนทบุรี",
+  "sector_en": "Barbershop, Nonthaburi",
   "shot": "design/photos/work/twobox.jpg",
-  "points": [["จองคิวผ่าน LINE หรือโทร", "Booking via LINE or phone"], ["หลังบ้านบันทึกลูกค้าและค่าใช้จ่าย", "Backoffice for walk-ins and expenses"], ["ดูรายได้และกำไรของร้าน", "Owner view of revenue and profit"]],
-  "tags": ["Website", "Booking", "Backoffice"]},
- {"id": "work_localink", "name": "Goodly\nTattoo", "sector_th": "ร้านสัก", "sector_en": "Tattoo studio",
+  "points": [
+   [
+    "จองคิวผ่าน LINE หรือโทร",
+    "Booking via LINE or phone"
+   ],
+   [
+    "หลังบ้านบันทึกลูกค้าและค่าใช้จ่าย",
+    "Backoffice for walk-ins and expenses"
+   ],
+   [
+    "ดูรายได้และกำไรของร้าน",
+    "Owner view of revenue and profit"
+   ]
+  ],
+  "tags": [
+   "Website",
+   "Booking",
+   "Backoffice"
+  ]
+ },
+ {
+  "id": "work_localink",
+  "name": "Goodly\nTattoo",
+  "sector_th": "ร้านสัก",
+  "sector_en": "Tattoo studio",
   "shot": "design/photos/work/ink.jpg",
-  "points": [["หน้าเว็บร้านพร้อมเมนูและราคา", "Studio site with menu and prices"], ["จองคิวและแชทผ่าน LINE", "Book a visit, chat on LINE"], ["แผนที่และเวลาเปิดร้าน", "Google Maps and opening hours"]],
-  "tags": ["Website", "LINE", "Google Maps"]},
- {"id": "work_goggen", "name": "Goggen\nSportpub", "sector_th": "สปอร์ตผับ · นอร์เวย์", "sector_en": "Sports pub, Drammen, Norway",
+  "points": [
+   [
+    "หน้าเว็บร้านพร้อมเมนูและราคา",
+    "Studio site with menu and prices"
+   ],
+   [
+    "จองคิวและแชทผ่าน LINE",
+    "Book a visit, chat on LINE"
+   ],
+   [
+    "แผนที่และเวลาเปิดร้าน",
+    "Google Maps and opening hours"
+   ]
+  ],
+  "tags": [
+   "Website",
+   "LINE",
+   "Google Maps"
+  ]
+ },
+ {
+  "id": "work_goggen",
+  "name": "Goggen\nSportpub",
+  "sector_th": "สปอร์ตผับ · นอร์เวย์",
+  "sector_en": "Sports pub, Drammen, Norway",
   "shot": "design/photos/work/goggen.jpg",
-  "points": [["ตารางถ่ายทอดสดรายสัปดาห์", "Weekly match schedule"], ["จองโต๊ะออนไลน์", "Online table booking"], ["หลังบ้านจัดการเมนู ราคา และการจอง", "Backoffice for menu, prices, bookings"]],
-  "tags": ["Website", "Booking", "Backoffice"]},
- {"id": "work_chezdugong", "name": "Chez Dugong", "sector_th": "ร้านอาหารริมทะเล · ฟูก๊วก", "sector_en": "Beachfront restaurant, Phu Quoc",
+  "points": [
+   [
+    "ตารางถ่ายทอดสดรายสัปดาห์",
+    "Weekly match schedule"
+   ],
+   [
+    "จองโต๊ะออนไลน์",
+    "Online table booking"
+   ],
+   [
+    "หลังบ้านจัดการเมนู ราคา และการจอง",
+    "Backoffice for menu, prices, bookings"
+   ]
+  ],
+  "tags": [
+   "Website",
+   "Booking",
+   "Backoffice"
+  ]
+ },
+ {
+  "id": "work_chezdugong",
+  "name": "Chez Dugong",
+  "sector_th": "ร้านอาหารริมทะเล · ฟูก๊วก",
+  "sector_en": "Beachfront restaurant, Phu Quoc",
   "shot": "design/photos/work/chez.jpg",
-  "points": [["เว็บไซต์หลายภาษา", "Multilingual website"], ["QR เมนูดิจิทัล แก้ไขเองได้", "Digital QR menu, easy to edit"], ["จองโต๊ะ งานแต่ง และอีเวนต์", "Reservations, weddings, events"]],
-  "tags": ["Website", "QR menu", "Reservations"]}
+  "points": [
+   [
+    "เว็บไซต์หลายภาษา",
+    "Multilingual website"
+   ],
+   [
+    "QR เมนูดิจิทัล แก้ไขเองได้",
+    "Digital QR menu, easy to edit"
+   ],
+   [
+    "จองโต๊ะ งานแต่ง และอีเวนต์",
+    "Reservations, weddings, events"
+   ]
+  ],
+  "tags": [
+   "Website",
+   "QR menu",
+   "Reservations"
+  ]
+ }
 ]

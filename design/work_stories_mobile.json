@@ -1,0 +1,45 @@
+[
+ {
+  "id": "work_pearlqueen_mobile",
+  "name": "Pearl Queen\n& Queen Tara",
+  "sector_th": "ดูบนมือถือ",
+  "sector_en": "On mobile",
+  "phones": [
+   "design/photos/work/mobile/pearl_0.png"
+  ],
+  "tags": [
+   "Website",
+   "Backoffice",
+   "TH / EN"
+  ]
+ },
+ {
+  "id": "work_twobox_mobile",
+  "name": "Two Box\nHair Studio",
+  "sector_th": "ดูบนมือถือ",
+  "sector_en": "On mobile",
+  "phones": [
+   "design/photos/work/mobile/twobox_0.png",
+   "design/photos/work/mobile/twobox_2.png"
+  ],
+  "tags": [
+   "Website",
+   "Booking",
+   "Backoffice"
+  ]
+ },
+ {
+  "id": "work_localink_mobile",
+  "name": "Goodly\nTattoo",
+  "sector_th": "ดูบนมือถือ",
+  "sector_en": "On mobile",
+  "phones": [
+   "design/photos/work/mobile/ink_0.png"
+  ],
+  "tags": [
+   "Website",
+   "LINE",
+   "Google Maps"
+  ]
+ }
+]
