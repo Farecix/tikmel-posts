@@ -21,8 +21,9 @@ body{{background:{BG};color:#F4F5F0;font-family:"Plex Thai",sans-serif}}"""
 
 
 def story(s):
-    shot = (f'<img src="{(ROOT / s["shot"]).as_uri()}">' if s.get("shot")
+    shot = (f'<div class="win"><div class="bar"><i></i><i></i><i></i></div><img src="{(ROOT / s["shot"]).as_uri()}"></div>' if s.get("shot")
             else '<div class="ph">screenshot</div>')
+    pts = "".join(f'<li><b>{e(a)}</b><span>{e(b)}</span></li>' for a, b in s.get("points", []))
     tags = "".join(f'<span>{e(t)}</span>' for t in s["tags"])
     return f"""<!doctype html><html><head><meta charset="utf-8"><style>{BASE}
 body{{padding:120px 80px 0;position:relative}}
@@ -31,7 +32,15 @@ body{{padding:120px 80px 0;position:relative}}
 h1{{font-size:96px;line-height:1.08;font-weight:700;margin-top:60px}}
 .sec{{font-size:40px;font-weight:700;color:{LIME};margin-top:16px}}
 .sec small{{display:block;font-size:28px;color:#A9ABA4;font-weight:500;margin-top:4px}}
-.frame{{position:absolute;left:0;right:0;top:620px;bottom:400px;display:flex;justify-content:center}}
+.frame{{position:absolute;left:80px;right:80px;top:600px;bottom:330px;display:flex;flex-direction:column;gap:54px}}
+.win{{border-radius:22px;overflow:hidden;border:3px solid #2B2C2F;background:#1A1B1E}}
+.win .bar{{height:40px;display:flex;gap:10px;align-items:center;padding:0 18px}}
+.win .bar i{{width:13px;height:13px;border-radius:50%;background:#3A3B3F}}
+.win img{{width:100%;max-width:none;max-height:none;border:0;border-radius:0;display:block}}
+ul{{list-style:none;display:flex;flex-direction:column;gap:26px}}
+li{{display:flex;flex-direction:column;padding-left:34px;position:relative}}
+li:before{{content:"";position:absolute;left:0;top:18px;width:14px;height:14px;border-radius:4px;background:{LIME}}}
+li b{{font-size:38px;font-weight:600}} li span{{font-size:27px;color:#A9ABA4}}
 .frame img,.ph{{max-height:100%;max-width:820px;border-radius:44px;border:4px solid #2B2C2F;display:block}}
 .ph{{width:560px;height:100%;display:flex;align-items:center;justify-content:center;color:#555;font-size:34px;background:#18181B}}
 .tags{{position:absolute;left:80px;right:80px;bottom:200px;display:flex;flex-wrap:wrap;gap:16px}}
@@ -42,7 +51,7 @@ h1{{font-size:96px;line-height:1.08;font-weight:700;margin-top:60px}}
 <div class="top"><span>TIKMEL TECH</span><span class="k">ผลงาน · OUR WORK</span></div>
 <h1>{"<br>".join(e(x) for x in s["name"].split(chr(10)))}</h1>
 <div class="sec">{e(s["sector_th"])}<small>{e(s["sector_en"])}</small></div>
-<div class="frame">{shot}</div>
+<div class="frame">{shot}<ul>{pts}</ul></div>
 <div class="tags">{tags}</div>
 <div class="foot"><span>ปรึกษาฟรี · Free consultation</span><span class="u">tikmeltech.live</span></div>
 </body></html>"""
