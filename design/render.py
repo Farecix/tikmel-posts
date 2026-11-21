@@ -2,15 +2,19 @@
 
 Usage: python3 design/render.py [id ...]
 Thai font: set THAI_FONT to a family name installed on the machine
-(e.g. "IBM Plex Sans Thai", "LINE Seed Sans TH", "Anuphan"). Default: Loma.
+(e.g. "LINE Seed Sans TH", "Anuphan"). Default: IBM Plex Sans Thai from design/fonts.
 """
 import html, json, os, sys
 from pathlib import Path
 from playwright.sync_api import sync_playwright
 
 ROOT = Path(__file__).resolve().parent.parent
-FONT = os.environ.get("THAI_FONT", "Loma")
+FONT = os.environ.get("THAI_FONT", "IBM Plex Sans Thai")
+FONT_DIR = ROOT / "design/fonts"
 e = html.escape
+FACES = "".join(
+    f'@font-face{{font-family:"IBM Plex Sans Thai";font-weight:{w};src:url("{(FONT_DIR / f"IBMPlexSansThai-{n}.ttf").as_uri()}")}}'
+    for n, w in [("Regular", 400), ("Medium", 500), ("SemiBold", 600), ("Bold", 700)])
 
 
 def visual(v, accent, tint):
@@ -39,6 +43,7 @@ def page(p):
     a, tint = p["accent"], p["tint"]
     head = "<br>".join(e(x) for x in p["headline"].split("\n"))
     return f"""<!doctype html><html><head><meta charset="utf-8"><style>
+{FACES}
 *{{margin:0;padding:0;box-sizing:border-box}}
 html,body{{width:1080px;height:1350px}}
 body{{font-family:"{FONT}",sans-serif;background:#F6F2EB;color:#1E1C19;
@@ -46,8 +51,8 @@ body{{font-family:"{FONT}",sans-serif;background:#F6F2EB;color:#1E1C19;
 .top{{display:flex;justify-content:space-between;align-items:center}}
 .kicker{{font-size:30px;font-weight:700;color:{a};background:{tint};padding:10px 22px;border-radius:999px}}
 .brand{{font-size:24px;font-weight:700;color:#6B655C}}
-h1{{font-size:96px;line-height:1.38;font-weight:700;margin-top:56px}}
-.sub{{font-size:38px;line-height:1.55;color:#4A453E;margin-top:22px;max-width:880px}}
+h1{{font-size:98px;line-height:1.3;font-weight:700;margin-top:56px}}
+.sub{{font-size:38px;line-height:1.5;color:#4A453E;margin-top:22px;max-width:880px}}
 .vis{{margin-top:52px;flex:1}}
 .card{{background:#fff;border:2px solid #E6DED2;border-radius:28px;padding:34px 38px}}
 .ct{{font-size:30px;font-weight:700;color:{a};padding-bottom:18px;border-bottom:2px solid #EFE8DD}}
@@ -83,7 +88,7 @@ def main(ids):
         b = pw.chromium.launch()
         pg = b.new_page(viewport={"width": 1080, "height": 1350}, device_scale_factor=1)
         for p in posts:
-            pg.set_content(page(p))
+            pg.goto("about:blank"); pg.set_content(page(p))
             pg.evaluate("document.fonts.ready")
             over = pg.evaluate("document.body.scrollHeight > 1350")
             out = ROOT / f"posts/v2/{p['id']}.jpg"
