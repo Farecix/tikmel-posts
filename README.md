@@ -10,7 +10,7 @@ Images are served to Instagram from `https://raw.githubusercontent.com/Farecix/t
 
 ## Design rules (v2)
 
-- Carousels always open with a "GUIDE" intro slide (question headline + English line); it acts as the post's cover in the grid.
+- Carousels always open with a standalone cover slide (dark reel-cover style: kicker, big Thai headline with pink highlight, English line, product screenshots; `design/render_cover45.py`), then the GUIDE slides.
 - Guide carousels use `design/render_guide.py` (dark style); single posts use `design/render.py`.
 - Thai font: IBM Plex Sans Thai (`design/fonts`). Reels covers are 1080x1920 (`design/render_cover*.py`).
 - Never publish private webhook URLs, client domains or live QR codes in screenshots; blur them.
