@@ -36,7 +36,7 @@ h1{{font-size:96px;line-height:1.08;font-weight:700;margin-top:60px}}
 .win{{border-radius:22px;overflow:hidden;border:3px solid #2B2C2F;background:#1A1B1E}}
 .win .bar{{height:40px;display:flex;gap:10px;align-items:center;padding:0 18px}}
 .win .bar i{{width:13px;height:13px;border-radius:50%;background:#3A3B3F}}
-.win img{{width:100%;max-width:none;max-height:none;border:0;border-radius:0;display:block}}
+.frame .win img{{width:100%;max-width:none;max-height:none;border:0;border-radius:0;display:block}}
 ul{{list-style:none;display:flex;flex-direction:column;gap:26px}}
 li{{display:flex;flex-direction:column;padding-left:34px;position:relative}}
 li:before{{content:"";position:absolute;left:0;top:18px;width:14px;height:14px;border-radius:4px;background:{LIME}}}
