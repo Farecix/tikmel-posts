@@ -141,5 +141,84 @@
     ]
    }
   ]
+ },
+ {
+  "id": "ink",
+  "name": "Goodly\nTattoo",
+  "sector_th": "ร้านสัก · กรุงเทพฯ",
+  "sector_en": "Tattoo studio, Bangkok",
+  "cover": {
+   "th": "เว็บไซต์ + จองคิวออนไลน์",
+   "en": "Website + online booking",
+   "window": "design/photos/work/ink_hero.jpg",
+   "phone": "design/photos/work/mobile/ink_m_hero.png"
+  },
+  "slides": [
+   {
+    "label": "เว็บไซต์ · WEBSITE",
+    "shot": "design/photos/work/ink_hero.jpg",
+    "tags": [
+     "Website",
+     "TH / EN",
+     "LINE"
+    ],
+    "points": [
+     [
+      "ไทย / อังกฤษ เปิดบ่ายสี่ถึงเที่ยงคืน",
+      "Thai / English, open 16:00–24:00"
+     ],
+     [
+      "ปุ่มจอง LINE TikTok Instagram ตามติดทุกหน้า",
+      "Book, LINE, TikTok and Instagram on every page"
+     ],
+     [
+      "สไตล์งานสัก Fine line · Blackwork · Color",
+      "Styles: fine line, blackwork, color"
+     ]
+    ]
+   },
+   {
+    "label": "มือถือ · MOBILE",
+    "phones": [
+     "design/photos/work/mobile/ink_m_hero.png",
+     "design/photos/work/mobile/ink_m_styles.png",
+     "design/photos/work/mobile/ink_m_book.png"
+    ],
+    "tags": [
+     "Mobile"
+    ],
+    "points": [
+     [
+      "ออกแบบสำหรับมือถือก่อน",
+      "Designed for phones first"
+     ],
+     [
+      "ลูกค้ากดจองหรือทัก LINE ได้ในคลิกเดียว",
+      "One tap to book or message on LINE"
+     ]
+    ]
+   },
+   {
+    "label": "จองคิว · BOOKING",
+    "shot": "design/photos/work/ink_book.jpg",
+    "tags": [
+     "Booking"
+    ],
+    "points": [
+     [
+      "ลูกค้าส่งไอเดีย ตำแหน่ง ขนาด และวันที่",
+      "Customers send idea, placement, size and date"
+     ],
+     [
+      "ร้านตอบกลับพร้อมแบบและราคา",
+      "The studio replies with a design and price"
+     ],
+     [
+      "มีวิธีดูแลแผลหลังสักบนเว็บ",
+      "Aftercare guide on the website"
+     ]
+    ]
+   }
+  ]
  }
 ]
