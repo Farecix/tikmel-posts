@@ -148,9 +148,9 @@
   "sector_th": "ร้านสัก · กรุงเทพฯ",
   "sector_en": "Tattoo studio, Bangkok",
   "cover": {
-   "th": "เว็บไซต์ + จองคิวออนไลน์",
-   "en": "Website + online booking",
-   "window": "design/photos/work/ink_hero.jpg",
+   "th": "เว็บไซต์ + ระบบหลังบ้าน",
+   "en": "Website + backoffice",
+   "window": "design/photos/work/ink_bo_earnings.jpg",
    "phone": "design/photos/work/mobile/ink_m_hero.png"
   },
   "slides": [
@@ -216,6 +216,69 @@
      [
       "มีวิธีดูแลแผลหลังสักบนเว็บ",
       "Aftercare guide on the website"
+     ]
+    ]
+   },
+   {
+    "label": "หลังบ้าน · BACKOFFICE",
+    "shot": "design/photos/work/ink_bo_earnings.jpg",
+    "tags": [
+     "Earnings"
+    ],
+    "points": [
+     [
+      "รายได้ ค่าใช้จ่าย และกำไรรายเดือน",
+      "Monthly income, expenses and profit"
+     ],
+     [
+      "แยกตามช่างสัก วิธีจ่าย และงานสัก",
+      "By artist, payment method and tattoo"
+     ],
+     [
+      "เฉพาะเจ้าของ เข้าด้วย PIN",
+      "Owner-only, PIN protected"
+     ]
+    ]
+   },
+   {
+    "label": "หลังบ้าน · BACKOFFICE",
+    "shot": "design/photos/work/ink_bo_requests.jpg",
+    "tags": [
+     "Requests"
+    ],
+    "points": [
+     [
+      "คำขอจองจากเว็บไซต์เข้ามาที่นี่ทันที",
+      "Website booking requests land here instantly"
+     ],
+     [
+      "ติดตามสถานะ ใหม่ · ติดต่อแล้ว · จองแล้ว · เสร็จ",
+      "Track new, contacted, booked, done"
+     ],
+     [
+      "ไม่มีลูกค้าหลุดหายในแชท",
+      "No customer gets lost in chat"
+     ]
+    ]
+   },
+   {
+    "label": "หลังบ้าน · BACKOFFICE",
+    "shot": "design/photos/work/ink_bo_walkins.jpg",
+    "tags": [
+     "Walk-ins"
+    ],
+    "points": [
+     [
+      "บันทึก walk-in ในไม่กี่วินาที",
+      "Log a walk-in in seconds"
+     ],
+     [
+      "ช่าง งานสัก ราคา และมัดจำ ครบในฟอร์มเดียว",
+      "Artist, tattoo, price and deposit in one form"
+     ],
+     [
+      "ใช้ได้ทั้งคอมและมือถือ",
+      "Works on computer and phone"
      ]
     ]
    }
